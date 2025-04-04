@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation 24h.com.vn</title>
+    
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #66bb6a;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .navbar li {
+            margin: 0 15px;
+            text-align: center;
+            position: relative;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            transition: background 0.3s;
+            position: relative;
+        }
+        .navbar a:hover {
+            background-color: #388e3c;
+            border-radius: 5px;
+        }
+        .icon {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        /* HOT label */
+        .hot {
+            position: absolute;
+            top: -5px;
+            right: -15px;
+            background-color: red;
+            color: white;
+            font-size: 10px;
+            font-weight: bold;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        /* Dấu tích đỏ */
+        .checkmark {
+            position: absolute;
+            bottom: -5px;
+            right: -8px;
+            font-size: 12px;
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="https://www.24h.com.vn/bong-da-c48.html">
+                <i class="fa-solid fa-futbol icon"></i>BÓNG ĐÁ</a></li>
+            <li><a href="https://www.24h.com.vn/kinh-doanh-c161.html">
+                <i class="fa-solid fa-chart-line icon"></i>KINH DOANH</a></li>
+            <li><a href="https://www.24h.com.vn/thi-truong-tieu-dung-c52.html">
+                <i class="fa-solid fa-store icon"></i>THỊ TRƯỜNG</a></li>
+            <li><a href="https://www.24h.com.vn/suc-khoe-doi-song-c62.html">
+                <i class="fa-solid fa-heartbeat icon"></i>SỨC KHỎE</a></li>
+            <li><a href="https://www.24h.com.vn/cong-nghe-thong-tin-c55.html">
+                <i class="fa-solid fa-laptop-code icon"></i>HI-TECH</a></li>
+            <li><a href="https://www.24h.com.vn/giai-tri-c731.html">
+                <i class="fa-solid fa-star icon"></i>SHOWBIZ</a></li>
+            <li><a href="https://www.24h.com.vn/tin-tuc-quoc-te-c415.html">
+                <i class="fa-solid fa-globe icon"></i>THẾ GIỚI</a></li>
+            <li><a href="https://www.24h.com.vn/thoi-trang-hi-tech-c407.html">
+                <i class="fa-solid fa-female icon"></i>PHÁI ĐẸP</a></li>
+            <li><a href="https://www.24h.com.vn/the-thao-c101.html">
+                <i class="fa-solid fa-running icon"></i>THỂ THAO</a></li>
+            <li>
+                <a href="https://www.24h.com.vn/ngoai-hang-anh-c149.html">
+                    <i class="fa-solid fa-trophy icon"></i>NGOẠI HẠNG ANH
+                    <span class="hot">HOT</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.24h.com.vn/lich-thi-dau-bong-da-c287.html">
+                    <i class="fa-solid fa-calendar-alt icon"></i>XEM LỊCH
+                    <i class="fa-solid fa-check-circle checkmark"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+</body>
+</html>

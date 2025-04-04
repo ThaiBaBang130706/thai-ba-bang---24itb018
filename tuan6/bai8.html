@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 8px 16px;
+            background: white;
+            border-bottom: 1px solid #ddd;
+        }
+        .header img {
+            height: 25px;
+            margin-right: 20px;
+        }
+        .search-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+        .search-bar {
+            width: 400px;
+            padding: 6px 12px;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            outline: none;
+            font-size: 14px;
+        }
+        .container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            max-width: 1000px;
+            margin: 20px auto;
+            gap: 20px;
+        }
+        .video-container {
+            flex: 3;
+            background: white;
+            padding: 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+        }
+        .video-info {
+            margin-top: 10px;
+        }
+        .video-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .video-stats {
+            font-size: 14px;
+            color: gray;
+            margin-top: 5px;
+        }
+        .video-list {
+            flex: 1;
+            background: white;
+            padding: 10px;
+        }
+        .video-item {
+            display: flex;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+        .video-item img {
+            width: 120px;
+            height: 70px;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        .video-item div {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header" style="max-width: 1000px; margin: 0 auto;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo">
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Tìm kiếm">
+        </div>
+    </div>
+    
+    <div class="container">
+        <!-- Video chính -->
+        <div class="video-container">
+            <iframe src="C:\tuan6\phimhoathinh.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="video-info">
+                <div class="video-title">phim hoat hinh</div>
+                <div class="video-stats">14.453.828 lượt xem • 8 thg 12, 2020</div>
+            </div>
+        </div>
+        
+        <!-- Danh sách video -->
+<div class="video-list">
+            <div class="video-item">
+                <img src="C:\tuan6\h1.jpg" alt="Video 1">
+                <div>hoat hinh 1</div>
+            </div>
+            <div class="video-item">
+                <img src="C:\tuan6\h2.jpg" alt="Video 2">
+                <div>hoat hinh 2</div>
+            </div>
+            <div class="video-item">
+                <img src="C:\tuan6\h3.jpg" alt="Video 3">
+                <div>hoat hinh 3</div>
+            </div>
+            <div class="video-item">
+                <img src="C:\tuan6\h4.jpg" alt="Video 4">
+                <div>hoat hinh 4 </div>
+            </div>
+            <div class="video-item">
+                <img src="C:\tuan6\h5.jpg" alt="Video 5">
+                <div>hoat hinh 5 </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

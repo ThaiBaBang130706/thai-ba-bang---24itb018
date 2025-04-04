@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách bài hát xếp hạng</title>
+    <style>
+        body {
+            background: #210029;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: #320040;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+        }
+        .intro {
+            font-size: 14px;
+            color: #bbb;
+            margin-bottom: 20px;
+        }
+        .song-list {
+            list-style: none;
+            padding: 0;
+        }
+        .song-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 10px;
+            border-bottom: 1px solid #ffffff40;
+            position: relative;
+        }
+        .song-item img {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+            margin-right: 15px;
+        }
+        .song-info {
+            flex-grow: 1;
+        }
+        .song-title {
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .song-artist {
+            font-size: 0.9em;
+            color: #bbb;
+        }
+        .song-time {
+            color: #bbb;
+            min-width: 60px;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .icons {
+            display: flex;
+            gap: 10px;
+            margin-left: 10px;
+        }
+        .icons span {
+            cursor: pointer;
+            font-size: 14px;
+            color: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <h4 style="color: #FFFFFF">
+    <span style="color: #bbb;">Lời tựa</span> Top 100 Nhạc Rock Việt Nam là danh sách 100 ca khúc hot nhất hiện tại của thể loại Nhạc Rock Việt Nam, được Zing MP3 tự động tổng hợp dựa trên thông tin số liệu lượt nghe và lượt chia sẻ của từng bài hát trên phiên bản web và phiên bản Mobile. Dữ liệu sẽ được lấy trong 30 ngày gần nhất và được cập nhật liên tục.
+</h4>
+
+        <ul class="song-list">
+            <li class="song-item">
+                <img src="1.jpg" alt="Đến Bao Giờ">
+                <div class="song-info">
+                    <div class="song-title">Đến Bao Giờ</div>
+                    <div class="song-artist">Cá Hồi Hoang, Đạt Maniac</div>
+                </div>
+                <div style="text-align: center;" class="song-time">04:02</div>
+                <div class="icons">
+                    <span>🎤</span>
+                    <span>♡</span>
+                    <span>...</span>
+                </div>
+            </li>
+            <li class="song-item">
+<img src="3.jpg" alt="Đường Đến Vinh Quang">
+                <div class="song-info">
+                    <div class="song-title">Đường Đến Vinh Quang</div>
+                    <div class="song-artist">Bức Tường</div>
+                </div>
+                <div class="song-time">05:30</div>
+                <div class="icons">
+                    <span>🎤</span>
+                    <span>♡</span>
+                    <span>...</span>
+                </div>
+            </li>
+             <li class="song-item">
+                <img src="2.jpg" alt="Người Đàn Bà Hóa Đá ">
+                <div class="song-info">
+                    <div class="song-title">Người Đàn Bà Hóa Đá</div>
+                    <div class="song-artist">Bức Tường</div>
+                </div>
+                <div class="song-time">04:34</div>
+                <div class="icons">
+                    <span>🎤</span>
+                    <span>♡</span>
+                    <span>...</span>
+                </div>
+            </li>
+             <li class="song-item">
+                <img src="4.jpg" alt="Lá Cờ ">
+                <div class="song-info">
+                    <div class="song-title">Lá Cờ</div>
+                    <div class="song-artist">Tạ Quang Thắng</div>
+                </div>
+                <div class="song-time">05:24</div>
+                <div class="icons">
+                    <span>🎤</span>
+                    <span>♡</span>
+                    <span>...</span>
+                </div>
+            </li>
+             <li class="song-item">
+                <img src="5.jpg" alt="White Love ">
+                <div class="song-info">
+                    <div class="song-title">White Love</div>
+                    <div class="song-artist">WhiteNoiz</div>
+                </div>
+                <div class="song-time">03:59</div>
+                <div class="icons">
+                    <span>🎤</span>
+                    <span>♡</span>
+                    <span>...</span>
+                </div>
+            </li>
+             <li class="song-item">
+                <img src="6.jpg" alt="Cơn Mưa Tháng 5">
+                <div class="song-info">
+                    <div class="song-title">Cơm Mưa Tháng 5</div>
+                    <div class="song-artist">Bức Tường</div>
+                </div>
+                <div class="song-time">04:03</div>
+                <div class="icons">
+                    <span>🎤</span>
+                    <span>♡</span>
+                    <span>...</span>
+                </div>
+            </li>
+             <li class="song-item">
+                <img src="7.jpg" alt="Tiếng Gọi">
+                <div class="song-info">
+                    <div class="song-title">Tiếng Gọi</div>
+                    <div class="song-artist">Bức Tường</div>
+                </div>
+                <div class="song-time">04:05</div>
+                <div class="icons">
+<span>🎤</span>
+                    <span>♡</span>
+                    <span>...</span>
+                </div>
+            </li>
+             <li class="song-item">
+                <img src="8.jpg" alt="Mắt Đen">
+                <div class="song-info">
+                    <div class="song-title">Mắt Đen</div>
+                    <div class="song-artist">Bức Tường</div>
+                </div>
+                <div class="song-time">04:07</div>
+                <div class="icons">
+                    <span>🎤</span>
+                    <span>♡</span>
+                    <span>...</span>
+                </div>
+            </li>
+             <li class="song-item">
+                <img src="9.jpg" alt="Những Chuyến Đi Dài">
+                <div class="song-info">
+                    <div class="song-title">Những Chuyến Đi Dài</div>
+                    <div class="song-artist">Bức Tường</div>
+                </div>
+                <div class="song-time">03:46</div>
+                <div class="icons">
+                    <span>🎤</span>
+                    <span>♡</span>
+                    <span>...</span>
+                </div>
+            </li>
+             <li class="song-item">
+                <img src="10.jpg" alt="Tâm Hồn Của Đá">
+                <div class="song-info">
+                    <div class="song-title">Tâm Hồn Của Đá</div>
+                    <div class="song-artist">Bức Tường</div>
+                </div>
+                <div class="song-time">03:38</div>
+                <div class="icons">
+                    <span>🎤</span>
+                    <span>♡</span>
+                    <span>...</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
